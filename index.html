@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>BetaVerso</title>
-  <link rel="icon" href="img/user.png" type="image/png">
+  <link rel="icon" href="img/logo.png" type="image/png">
 
   <link rel="stylesheet" href="css/geral.css">
   <link rel="stylesheet" href="css/navbar.css">
@@ -17,7 +17,7 @@
 <nav class="navbar">
 
   <div class="logo-container">
-    <img src="./img/user.png" alt="Logo BV">
+    <img src="./img/logo.png" alt="Logo BV">
 
     <div class="logo-text">
       <h1>BETAVERSO</h1>
@@ -48,7 +48,7 @@
   
 <!-- INICIAL -->
   <section class="image-destaque">
-    <img src="./img/destaque.png" width="100%" alt="Destaque Beta">
+    <img src="./img/voar.png" width="100%" alt="Destaque Beta">
   </section>
 
 
@@ -89,14 +89,33 @@
         </div>
 
         <!-- Imagem -->
-        <div class="card image-card" data-link="https://seusite.com">
+        <div class="card image-card" data-link="https://www.youtube.com/@betaplay1">
             <img src="img/thumb.png" alt="Imagem destaque">
         </div>
 
     </div>
   </section>
 
+<!-- PROJETO 4 MIL HORAS -->
+  <section class="canais">
+    <div class="text"><h3>AJUDE BETINHA A CHEGAR NAS 4 MIL HORAS</h3></div> 
+    <!-- Imagem -->
+        <div class="card image-card" data-link="https://www.youtube.com/watch?v=gnBbnv7tG2Q&list=PLx474AgFzLXIj5s97KVZdGb9ClTJ3_0DP">
+            <img src="img/brawl.png" alt="Imagem destaque">
+        </div>
+  
+  </section>
+
 <!-- INICIAL -->
+<script>
+  document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => {
+        const link = card.getAttribute("data-link");
+        window.open(link, "_blank");
+    });
+  });
+</script>
+
 
 </body>
 </html>

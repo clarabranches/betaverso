@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Comunidade</title>
-    <link rel="icon" href="img/user.png" type="image/png">
+    <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="css/comunidade.css">
     <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -15,12 +15,13 @@
   <nav class="navbar">
 
   <div class="logo-container">
-    <img src="./img/user.png" alt="Logo BV">
+    <a href="./index.html"><img src="./img/logo.png" alt="Logo BV"></a>
+    
 
     <div class="logo-text">
       <h1>BETAVERSO</h1>
       <span>|</span>
-      <span>Universo Gamer</span>
+      <span>Comunidade</span>
     </div>
   </div>
 
@@ -78,15 +79,16 @@
                 <img src="img/minerar.png">
                 <div>
                     <strong>Minerar</strong>
-                    <p class="cmd">!minerar</p>
+                    <p class="cmd">minerar + algo</p>
                 </div>
             </div>
 
-            <button class="copy-btn" data-copy="!minerar">📋</button>
+            <button class="copy-btn" data-copy="minerar ...">📋</button>
         </div>
 
         <div class="comando-body">
-            <p>Com esse comando você se teleporta para uma mina e coleta minérios.</p>
+            <p>Com esse comando você se teleporta para uma mina e coleta minérios. Para usar ele você precisa escrever minerar + algo aleatório</br>
+               Exemplo:minerar aqui</p>
 
             <div class="sub">
                 <strong>Comandos Associados</strong>
@@ -110,11 +112,38 @@
                         <div>
                             <strong>Vender</strong>
                             <p class="cmd">!vender</p>
-                            <p>Vende tudo</p>
+                            <p>Vende todo seu invetário</p>
                         </div>
                     </div>
 
-                <button class="copy-btn" data-copy="!vender">📋</button>
+                <button class="copy-btn" data-copy="!vender minerio">📋</button>
+                </div>
+
+                <div class="comando-header">
+                    <div class="left">
+                        <img src="img/carrinho.png">
+                        <div>
+                            <strong>Vender Tudo Específico</strong>
+                            <p class="cmd">!vender minerio</p>
+                            <p>Vende todas as unidades do seu invetário de um minerio específico</p>
+                            <p class="cmd">Exemplo: !vender pedra</p>
+                        </div>
+                    </div>
+
+                <button class="copy-btn" data-copy="!vender minerio">📋</button>
+                </div>
+
+                <div class="comando-header">
+                    <div class="left">
+                        <img src="img/carrinho.png">
+                        <div>
+                            <strong>Vender Específico</strong>
+                            <p class="cmd">!vender minerio qtd</p>
+                            <p>Vende uma quantidade específica de um minerio específico do seu inventário</p>
+                        </div>
+                    </div>
+
+                <button class="copy-btn" data-copy="!vender minerio qtd">📋</button>
                 </div>
 
             </div>
