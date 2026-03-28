@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em Breve</title>
+    <link rel="icon" href="img/user.png" type="image/png">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/embreve.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+  <nav class="navbar">
+
+  <div class="logo-container">
+    <img src="./img/user.png" alt="Logo BV">
+
+    <div class="logo-text">
+      <h1>BETAVERSO</h1>
+      <span>|</span>
+      <span>Universo Gamer</span>
+    </div>
+  </div>
+
+  <div class="menu">
+    <a href="./index.html">Inicio</a>
+    <a href="./embreve.html">Mercado</a>
+    <a href="./comunidade.html">Comunidade</a>
+  </div>
+
+  <div class="user-container">
+    <button class="user-btn" onclick="irParaLogin()">
+      <img src="./img/user.png" alt="Usuário">
+    </button>
+  </div>
+
+
+  <script>
+    function irParaLogin() {
+      window.location.href = "embreve.html";
+    }
+  </script>
+</nav>
+
+<!-- CENTRO EM BREVE ANYA -->
+    <div class="container-breve">
+        <div class="content-breve">
+            
+            <div class="img-breve">
+                <img id="personagem" alt="Personagem">
+            </div>
+
+            <script src="acao/imgEmbreve.js"></script>
+
+            <div class="text">
+                <h1>EM BREVE ...</h1>
+                <p>Te acalma manga!</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
