@@ -1,0 +1,17 @@
+/* PAGE EM BREVE */
+.img-breve img {
+    width: 200px;
+}
+
+.container-breve {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-breve {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

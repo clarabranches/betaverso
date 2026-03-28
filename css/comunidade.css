@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #cfd4d9;
+}
+
+.comandos {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.comandos h3 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* CARD */
+.comando-card {
+    background: #e9eaec;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover igual anterior */
+.comando-card:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* HEADER */
+.comando-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.left img {
+    width: 40px;
+}
+
+.cmd {
+    font-size: 13px;
+    color: #555;
+}
+
+/* BOTÃO COPIAR */
+.copy-btn {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* BODY (colapsado) */
+.comando-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #dcdcdc;
+    transition: max-height 0.4s ease, padding 0.3s;
+}
+
+/* QUANDO ABERTO */
+.comando-card.active .comando-body {
+    max-height: 500px;
+    padding: 15px;
+}
+
+/* SUB CARDS */
+.sub {
+    margin-top: 15px;
+}
+
+.sub-card {
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}

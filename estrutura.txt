@@ -1,0 +1,18 @@
+/projeto
+│
+├── /acao
+│   ├── cms.php
+│   ├── imgEmbreve.js
+├── /acao
+│   ├── cms.php
+│   ├── imgEmbreve.js
+├── /font
+├── /img
+├── /itens
+│   ├── navbar.php
+├── comunidade.html
+├── embreve.php
+├── index.php
+├── index.html
+├── login.html
+├── mercado.html

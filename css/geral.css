@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* FONTES PADRÃO */
+.text h1 {
+    color: #555;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'IntroRust';
+}
+
+.text h2 { /* FONTE PARA DESTAQUES */
+    color: #2d7df6;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'IntroRust';
+}
+
+.text h3 {
+    color: #666;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text p {
+    color: #666;
+    font-size: 22px;
+}
